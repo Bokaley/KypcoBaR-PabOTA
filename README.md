@@ -1,20 +1,20 @@
-max_flow_project/
-├── src/                    # Исходный код
-│   ├── graph.py           # Классы Node, Edge, Graph
-│   ├── algorithms.py      # Алгоритм Форда-Фалкерсона
-│   ├── flow_network.py    # Управление сетью потока
-│   └── exceptions.py      # Пользовательские исключения
-├── ui/                    # Пользовательский интерфейс
-│   ├── main_window.py     # Главное окно
-│   ├── graph_widget.py    # Виджет графа
-│   ├── node_graphics_item.py
-│   ├── edge_graphics_item.py
-│   └── dialogs.py         # Диалоговые окна
-├── tests/                 # Тесты
-│   ├── test_graph.py
-│   └── test_algorithms.py
-├── main.py               # Точка входа
-└── requirements.txt      # Зависимости# Визуализатор максимального потока
+max_flow_project/  
+├── src/                    # Исходный код  
+│   ├── graph.py           # Классы Node, Edge, Graph  
+│   ├── algorithms.py      # Алгоритм Форда-Фалкерсона  
+│   ├── flow_network.py    # Управление сетью потока  
+│   └── exceptions.py      # Пользовательские исключения  
+├── ui/                    # Пользовательский интерфейс  
+│   ├── main_window.py     # Главное окно  
+│   ├── graph_widget.py    # Виджет графа  
+│   ├── node_graphics_item.py  
+│   ├── edge_graphics_item.py  
+│   └── dialogs.py         # Диалоговые окна  
+├── tests/                 # Тесты  
+│   ├── test_graph.py  
+│   └── test_algorithms.py  
+├── main.py               # Точка входа  
+└── requirements.txt      # Зависимости# Визуализатор максимального потока  
 
 Программа для визуализации и вычисления максимального потока в транспортной сети с использованием алгоритма Форда-Фалкерсона.
 
@@ -38,3 +38,4 @@ max_flow_project/
 
 ```bash
 pip install -r requirements.txt
+
