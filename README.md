@@ -1,6 +1,6 @@
 # Задача о максимальном потоке в сети. Алгоритм Форда-Фалкерсона
 ## Структура
-max_flow_project/  
+max_flow_project/   
 ├── src/                    # Исходный код  
 │   ├── graph.py           # Классы Node, Edge, Graph  
 │   ├── algorithms.py      # Алгоритм Форда-Фалкерсона  
@@ -44,6 +44,7 @@ max_flow_project/
 
 - Python 3.8+
 - PySide6
+
 
 
 
